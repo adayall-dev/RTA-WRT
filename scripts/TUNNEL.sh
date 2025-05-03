@@ -19,7 +19,7 @@ readonly IMMORTALWRT_URL="https://downloads.immortalwrt.org/releases/packages-${
 # Initialize variables
 declare -a openclash_ipk passwall_ipk
 openclash_ipk=("luci-app-openclash|${IMMORTALWRT_URL}")
-#passwall_ipk=("luci-app-passwall|${IMMORTALWRT_URL}")
+passwall_ipk=("luci-app-passwall|${IMMORTALWRT_URL}")
 
 # Function to get latest release URL from GitHub
 get_github_release() {
